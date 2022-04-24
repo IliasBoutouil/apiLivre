@@ -47,7 +47,6 @@ public class LivreService {
 			livre.setPages(data.getPages());
 		    livre.setTitre(data.getTitre());
 		    return livreRepos.save(livre);
-			
 		} catch (Exception e) {
 			System.out.println(e.getMessage());
 			return null;
